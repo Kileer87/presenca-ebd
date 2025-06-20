@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Presença EBD - Igreja do Nazareno</title>
+  <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+  <div>
+    <h1>Escola Bíblica Dominical</h1>
+    <h2>Igreja do Nazareno – Pau Amarelo</h2>
+
+    <form id="presencaForm">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+
+      <label for="sala">Selecione a Sala:</label>
+      <select id="sala" name="sala" required>
+        <option value="" disabled selected>Escolha uma sala</option>
+        <option value="Adulto">Adulto</option>
+        <option value="Jovens">Jovens</option>
+        <option value="Terceira Idade">Terceira Idade</option>
+        <option value="Discipulado">Discipulado</option>
+      </select>
+
+      <label for="token">Token do Dia:</label>
+      <input type="text" id="token" name="token" placeholder="Digite o token" required />
+
+      <button type="submit">Enviar Presença</button>
+    </form>
+
+    <p id="resposta"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
