@@ -1,4 +1,4 @@
-const scriptURL = 'https://sheetdb.io/api/v1/qp0dob2ggm9hb'; // Substitua pelo seu código do SheetDB
+const scriptURL = 'https://sheetdb.io/api/v1/82rxui90n32wl'; // Substitua pelo seu código do SheetDB
 const tokenCorreto = "3236"; // Seu token do dia
 
 document.getElementById('presencaForm').addEventListener('submit', e => {
